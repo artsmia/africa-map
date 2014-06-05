@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Transatlantic Slave Trade</label>
+		<x>627</x>
+		<y>596</y>
+		<link>TransatlanticSlaveTrade-PopUp</link>
+		<label>Transatlantic Slave Trade</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>TransatlanticSlaveTrade-PopUp</id>
+		<title>Trans-Atlantic Slave Trade</title>
+		<panel_path>library/cml/stories/transatlantic-slave-trade.cml</panel_path>
+		<radioX>300</radioX>
+	</Viewer>
+	
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The trans-Atlantic slave trade began in the 1500s, supplying Spanish and Portuguese colonies in South America. By the 1700s, the English dominated the trade, which ultimately carried about 12 million enslaved Africans across the Atlantic while millions more died on the journey.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Most enslaved Africans brought to British North America arrived between 1720 and 1780 from West and Central Africa. Britain banned the slave trade in 1807 and patrolled the African coast to enforce the ban. By 1850, most slaves in the United States had been born in America.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Enslaved Africans were the cargo on the brutal “middle passage” of the slave-trade triangle, packed into ship holds better suited for the guns and textiles carried from Europe to Africa or the cotton, sugar cane, and tobacco carried from the Americas to Europe.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/5.1 Map05_slave_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/5.2 Map05b-usa_slave_1024x768-DRAFT-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/5.3 2013_TDXAfrica_043_01.png</media>
+	</Panel>	
+</cml>

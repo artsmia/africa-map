@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>World Religions in Africa: Toni Malau</label>
+		<x>1072</x>
+		<y>610</y>
+		<link>ToniMalau-PopUp</link>
+		<label>World Religions in Africa: Toni Malau</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>ToniMalau-PopUp</id>
+		<title>World Religions in Africa: Toni Malau</title>
+		<panel_path>library/cml/stories/toni-malau.cml</panel_path>
+		<radioX>280</radioX>
+	</Viewer>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">This figure of Toni Malau, the Kongo name for St. Anthony of Padua, blends Christian and Kongo traditions. Likely used in rituals, he's holding a cross and the Christ Child while wearing the netted cape of Kongo nobility. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The rise of Islam slowed the spread of Christianity from North Africa, where it had followers since Biblical times. That changed when the Portuguese found sea routes in the 1400s, opening the door to Catholic missionaries. King Nzinga of Kongo was an early convert.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">After King Nzinga of Kongo freely converted to Christianity in 1491, he urged the people of his vast kingdom to do the same--an easy sell, as some aspects of Christian doctrine had been introduced using words that mirrored Kongo beliefs.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Built by angels? That's the legend of Nkulumbimbi, the oldest Catholic church in Africa. It was constructed around 1549 during the reign of the son of the first Kongo king to convert to Christianity. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/7.1 mia_6001892.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/7.2 Map06_spread_of_christnty_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/7.3 2013_TDXAfrica_027_01.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/7.4 2013_TDXAfrica_031_02.png</media>
+	</Panel>
+</cml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Mami Wata's Journey</label>
+		<x>955</x>
+		<y>443</y>
+		<link>Mami Wata-PopUp</link>
+		<label>Mami Wata's Journey</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>Mami Wata-PopUp</id>
+		<title>Mami Wata's Journey</title>
+		<panel_path>library/cml/stories/mami-wata.cml</panel_path>
+		<radioX>260</radioX>
+	</Viewer>
+
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Ancient African deity or newcomer? Mami Wata, which means “Mother Water,” is no native African--note her light skin and straight hair. But the snakes around her waist connect her to traditional beliefs in a water spirit common to cultures across the continent and beyond.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Mami Wata was real, in a way. Modern images of her as a spirit are based on a Samoan snake charmer, Maladamatjaute, who performed in Hamburg, Germany, in the 1880s. African sailors docked there brought back posters for the show and her image soon melded with ancient beliefs.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Mami Wata was so popular in Africa in the 1900s that her persona inspired a German perfumer to create “Mami Water” for the African market around 1920.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Her snake-charming days in Germany had been over for half a century. But Maladamatjaute's popularity in Africa was still growing in the 1950s when entrepreneurs from Ghana hired the Shree Ram Calendar Company in India to make replicas of the old poster advertising her show.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Mami Wata travelled to the Caribbean, where water spirits like her are central to Haitian Vodou, a religion with rituals from several West African cultures.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/2.1 mia_6004485.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/2.2 Map02_mami-wata-screen-01_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/2.3 Map02_mami-wata-screen-02_1024x768-100713.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/2.4 Map02_mami-wata-screen-03_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/2.5 Map02_mami-wata-screen-04_1024x768-100713.png</media>
+	</Panel>
+</cml>

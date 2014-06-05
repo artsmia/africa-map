@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-	8"?>
+<cml>
+	
+<RenderKit>
+	<Renderer id="hotspots" dataRootTag="Hotspot" dataPath="library/cml/stories/content-index.cml">
+
+		<Hotspot id="{label}" class="africa-hotspot" x="{x}" y="{y}" component="{link}" visible="true" tether="true" tetherColor="0x58595b" tetherStroke="2">
+			<Button dispatch="down:hotspot" hit="graphic" initial="graphic" down="graphic" up="graphic">	
+				<Graphic id="graphic" alpha="0" shape="circle" radius="60" lineStroke="0" color="0xef4e24" />	 
+			</Button>
+		</Hotspot>
+	
+	</Renderer>
+</RenderKit>
+
+</cml>
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Colonialism</label>
+		<x>1033</x>
+		<y>238</y>
+		<link>Colonialism-PopUp</link>
+		<label>Colonialism</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>Colonialism-PopUp</id>
+		<title>Colonialism</title>
+		<panel_path>library/cml/stories/colonialism.cml</panel_path>
+		<radioX>260</radioX>
+	</Viewer>
+	
+
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">One of the first printed maps of Africa appeared in 1508 in a book about European voyages to the Americas, Africa, and Asia. The coastline is accurate, but the interior was a mystery to Europeans then--they only knew Africa from sailing along the coast.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Europeans staked their African claims with coastal forts and port cities, then pushed inward, fighting other Europeans for control of the gold and slave trades. The Portuguese gradually lost out to the Dutch, French, and English, who were willing to trade guns to Africans.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The first atlas in the Muslim world was published in 1803 in Istanbul, then the capital of the Ottoman Empire. It was based on the research of an English cartographer enlisted by the Ottomans to help upgrade their military to Western standards.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Oman, at the mouth of the strategically important Persian Gulf, became powerful enough in the late 1600s to push the Portuguese out of East Africa and build its own empire. In 1730, the sultan of Oman moved his palace to the Swahili island of Zanzibar. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">European colonialism in Africa exploded in the late 1800s. By 1900, the whole continent except Ethiopia and Liberia had been claimed in the so-called “Scramble for Africa.” The African territories became pawns in the international tensions that would erupt into World War I.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/3.1 2013_TDXAfrica_021_01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/3.2 Map04_colonial_1700_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/3.3 2013_TDXAfrica_034_01.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/3.4 Map03_colonial_omani_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/3.5 Map03_colonial_1914_1024x768-100713.png</media>
+	</Panel>
+</cml>

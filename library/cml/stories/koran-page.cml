@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>World Religions in Africa: Koran Page</label>
+		<x>1197</x>
+		<y>150</y>
+		<link>KoranPage-PopUp</link>
+		<label>World Religions in Africa: Koran Page</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>KoranPage-PopUp</id>
+		<title>World Religions in Africa: Koran Page</title>
+		<panel_path>library/cml/stories/koran-page.cml</panel_path>
+		<radioX>260</radioX>
+	</Viewer>
+
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Muslims believe that the Qur'an was repeatedly revealed from God to Muhammad verbally through the angel Jibrīl (Gabriel) over a period of approximately twenty-three years. In the Middle Ages, illuminated Qur'ans were commissioned by wealthy patrons of the arts.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">After Muhammad's death in 632 CE, nomad traders spread Islam throughout the Saharan region. By the Middle Ages, a city at the junction of Saharan camel routes and various river routes had emerged as an African center of Islamic learning: the fabled Timbuktu.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Look past the 1907 architecture of the mosque at Djenne in Mali--way into the past--and you'll understand why it's revered. In the Middle Ages, this was the site of an important center of Islamic learning, where thousands of students studied the Qur'an at madrassas.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The manuscript collection at the university at Timbuktu is a vital record of African history. But the university, once abuzz with 25,000 scholars from across the medieval Islamic world, is imperiled by war and the harsh desert climate.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The word <span fontFamily="AvenirMediumObliqueTLF">madrassa</span> simply means “school” and can refer to primary schools, high schools, or colleges. At a typical Islamic school, memorization of the Qur'an is just one course, along with Arabic, history, ethics, and theology. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Panel>
+		<media>library/assets/media/8.1 mia_2025520.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/8.2 Map08_spread_of_islam_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/8.3 2013_TDXAfrica_025_01.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/8.4 2013_TDXAfrica_026_01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/8.5 2013_TDXAfrica_023_01.png</media>
+	</Panel>
+</cml>

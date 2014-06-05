@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Indian Ocean Trade Routes</label>
+		<x>1613</x>
+		<y>479</y>
+		<link>IndianOcean-PopUp</link>
+		<label>Indian Ocean Trade Routes</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>IndianOcean-PopUp</id>
+		<title>Indian Ocean Trade Routes</title>
+		<panel_path>library/cml/stories/indian-ocean-trade-routes.cml</panel_path>
+		<radioX>260</radioX>
+	</Viewer>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Arab traders were crossing the Indian Ocean some 1,500 years before the Portuguese plied Africa's Atlantic coast. Arab, Persian, and Indian merchants established trading centers along the East African coast, blending with the local Bantu people to form a distinct Swahili culture.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Traditional dhows, with their single triangular sail, have ferried people and goods across the Indian Ocean for millennia. But they're at the mercy of seasonal monsoon winds, which blow west toward Africa in the winter and reverse course in the summer.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Lamu Island, off the coast of Kenya, has been a cultural crossroads for centuries. Settled by wealthy Arab merchants, its melting pot of cultures from the African mainland and across the sea is reflected in the distinctive carved doors of many Lamu houses.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Cosmopolitan Zanzibar was the ultimate “spice island” but also did a brisk trade in ivory with North American merchants, which explains the name of Ivoryton, Connecticut, once famous for producing ivory billiard balls, combs, and piano keys.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The slave trade persisted well into the 1900s in East Africa, where tragic cultural memories remain fresh. In this <span fontFamily="AvenirMediumObliqueTLF">tingatinga</span> painting, a Tanzanian style created in the 1970s for tourists, slaves and ivory are loaded onto a dhow for Indian Ocean markets.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/11.1 Map11_indian_ocean_trade_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/11.2 2013_TDXAfrica_028_01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/11.3 2013_TDXAfrica_038_01.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/11.4 2013_TDXAfrica_032_01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/11.5 2013_TDXAfrica_033_02.png</media>
+	</Panel>
+</cml>

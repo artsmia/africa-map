@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>World Religions in Africa: Prayer Mat</label>
+		<x>1384</x>
+		<y>755</y>
+		<link>PrayerMat-PopUp</link>
+		<label>World Religions in Africa: Prayer Mat</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>PrayerMat-PopUp</id>
+		<title>World Religions in Africa: Prayer Mat</title>
+		<panel_path>library/cml/stories/prayer-mat.cml</panel_path>
+		<radioX>280</radioX>
+	</Viewer>
+
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Devout Muslims pray five times a day while facing Mecca. In a mosque, an ornate niche in a wall, called a <span fontFamily="AvenirMediumObliqueTLF">mihrab</span>, indicates the direction. This small prayer mat, with its image of a <span fontFamily="AvenirMediumObliqueTLF">mihrab</span>, would have been laid out on the ground in a similar orientation at prayer time.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Shortly after the death of Muhammad in 632 CE, his followers fled to Somalia to escape persecution. In the 1500s, Arab traders also brought Islam to the East African coast, establishing trade centers before turning inland in pursuit of ivory, gold, and slaves.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Madagascar never converted to Islam--today, half the islanders practice traditional beliefs and half follow Christianity. But the local Malagasy language was first written in <span fontFamily="AvenirMediumObliqueTLF">sorabe</span>, a form of Arabic script, and traditional divination is based on Islamic numerology.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Mosques make it easy to turn toward Mecca during prayers: face the <span fontFamily="AvenirMediumObliqueTLF">mihrab</span>, an arched niche in a wall, and you're facing Mecca. It's usually the most ornate feature of any mosque.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/9.1 mia_6010133.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/9.2 Map08_spread_of_islam_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/9.3 2013_TDXAfrica_018_01.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/9.4 2013_TDXAfrica_024_02.png</media>
+	</Panel>
+</cml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+
+	<Button id="close-btn" class="close_btn" dispatch="down:close" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up">
+		<Container id="close-up" class="up" x="640" y="7" >
+			<SWF alpha="1" x="20" y="8" color="0x3b3932" scale="1.4" classRef="org.openexhibits.assets.Close"/>
+		</Container>
+		<Container id="close-down" class="down" x="635" y="-10" >	
+			<SWF alpha="1" x="20" y="8" color="0x3b3932" scale="1.4" classRef="org.openexhibits.assets.Close" />
+		</Container>	
+		<Container id="close-hit" class="hit" x="635" y="-10" >
+			<Graphic id="close-hit-bg" shape="circle" radius="35" alpha="0" color="0xff00cc"/>
+		</Container>
+	</Button>
+
+</cml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>World Religions in Africa: Ethiopian Album</label>
+		<x>1280</x>
+		<y>400</y>
+		<link>EthiopianAlbum-PopUp</link>
+		<label>World Religions in Africa: Ethiopian Album</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>EthiopianAlbum-PopUp</id>
+		<title>World Religions in Africa: Ethiopian Album</title>
+		<panel_path>library/cml/stories/ethiopian-album.cml</panel_path>
+		<radioX>280</radioX>
+	</Viewer>
+	
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Monks in Ethiopia spent a lot of time “illuminating” manuscripts, like this one from the late 1600s, during the 1,500 or so years when Christian monasteries were the country's primary centers of learning. Only a few early manuscripts, however, survived the Islamic raids of the 1500s. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The apostle Mark, born in what is now Libya, spread Christianity to North Africa long before the faith reached Europe. The kingdom of Aksum, now Ethiopia, adopted Christianity around 330 CE. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Lalibela, a devout Ethiopian king and priest, built 11 remarkable underground churches--hewn from rock--in the 1100s. He hoped his capital, Roha, would be the architectural and spiritual equal of Jerusalem, and legend holds that his church plans were heaven-sent.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The Ethiopian Orthodox Church is like no other. Its devout believers observe up to 260 days of fasting every year and a multitude of holy days, marked with processions featuring ornate latticework crosses carried atop long poles.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/6.1mia_5015365_Outlined.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/6.2 Map06_spread_of_christnty_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/6.3 2013_TDXAfrica_016_01.png</media>
+	</Panel>	
+	
+	<Panel>
+		<media>library/assets/media/6.4 2013_TDXAfrica_017_01.png</media>
+	</Panel>	
+</cml>

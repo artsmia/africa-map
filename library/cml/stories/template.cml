@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Historical Gold Trade</label>
+		<x>850</x>
+		<y>328</y>
+		<link>HistoricalGoldTrade-PopUp</link>
+		<label>Historical Gold Trade</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>HistoricalGoldTrade-PopUp</id>
+		<title>Historical Gold Trade</title>
+		<panel_path>library/cml/stories/historical_gold_trade.cml</panel_path>
+	</Viewer>
+	
+	<albumButtonsX>300</albumButtonsX>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14"></p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14"></p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14"></p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14"></p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/</media>
+	</Panel>
+</cml>

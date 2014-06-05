@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Historical Gold Trade</label>
+		<x>850</x>
+		<y>328</y>
+		<link>HistoricalGoldTrade-PopUp</link>
+		<label>Historical Gold Trade</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>HistoricalGoldTrade-PopUp</id>
+		<title>Historical Gold Trade</title>
+		<panel_path>library/cml/stories/historical-gold-trade.cml</panel_path>
+		<radioX>260</radioX>
+	</Viewer>
+
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">It's the world's hottest desert. But before the rise of sea travel, the Sahara was Africa's inland ocean, crossed by Berber traders and their caravans of camels. They traded gold from Mali in West Africa for salt, beads, and pottery from the Mediterranean coast.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">What unified the vast Mediterranean territories controlled by the Muslim caliphates? Gold, and lots of it. Solid gold coins called <span fontFamily="AvenirMediumObliqueTLF">dinars</span> were the common currency of the realm, fueling demand for gold from West Africa. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">There's charity, and then there's what Mansa Musa did on his pilgrimage to Mecca in 1324. The emperor of Mali handed out so much gold along the way that the sudden flood of wealth busted the region's economy.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">With the Sahara controlled by Muslims, Europeans looking to reach the riches of West Africa took to the sea instead. The routes of Portuguese explorers in the 1400s were soon followed by other Europeans, who traded firearms, textiles, and seashells for slaves, ivory, and gold.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">This is a sample video with audio.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/1.1 Map01_goldfields_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/1.2 Map01-b_califate_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/1.3 2013_TDXAfrica_001_02.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/1.4 2013_TDXAfrica_035_02.png</media>
+	</Panel>
+</cml>

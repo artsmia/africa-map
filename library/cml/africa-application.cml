@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false">
+
+	<StageKit fullscreen="true" frameRate="60" />
+	
+	<AttractKit id="attract" timeout="180" tweenFades="true" tweenTime=".5" visible="true">
+		<Image src="library/assets/attract-screen.png" />
+	</AttractKit>	
+	
+	<!-- Backgrounds -->
+	<BackgroundKit id="bgs">
+		<Image id="default-bg"   src="library/assets/media/0.2 background_map_names.png" visible="true"/>
+		<Image id="bg-names" src="library/assets/media/0.1 background_map_no_names.png" visible="true"/>     
+	</BackgroundKit>
+
+	<!-- Hotspots -->
+	<Include src="library/cml/renderers/hotspots.cml" />
+	
+	<!-- Viewer Renderer -->
+	<Include src="library/cml/renderers/viewers.cml"/>
+	
+	<LibraryKit>
+		<Library type="swf" src="library/swfs/openexhibits_assets.swf" />	
+	</LibraryKit>
+	
+	<!-- Background Toggle -->
+	<RadioButtons id="radioBtns" pageButtons="false" graphicReps="off-up:off-down,on-up:on-down" labels="off,on" fontSize="23" fontAlpha="0" verticalLayout="false" absOffset="true" >
+		<Image id="on-up" x="1727" y="962" src="library/assets/names-on.png"/>
+		<Image id="off-up" x="1786" y="962" src="library/assets/names-off.png"/>
+		<Image id="on-down" x="1727" y="962" src="library/assets/names-on-disabled.png"/>
+		<Image id="off-down" x="1786" y="962" src="library/assets/names-off-disabled.png"/>
+	</RadioButtons>
+
+</cml>

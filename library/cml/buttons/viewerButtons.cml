@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+
+	<!--Radio Buttons 		
+	<RadioButtons pageButtons="false" x="400" y="300" graphicReps="id1:id1d,id2:id2d,id3:id3d" labels="" fontAlpha="0" verticalLayout="false">
+		<Container id="id1">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10" />
+		</Container>
+		<Container id="id2">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10"/>
+		</Container>
+		<Container id="id3">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10"/>
+		</Container>
+		<Container id="id1d">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10"/>
+		</Container>
+		<Container id="id2d">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10"/>
+		</Container>
+		<Container id="id3d">
+			<Graphic shape="rectangle" color="0xfff" width="15" height="10"/>
+		</Container>
+	</RadioButtons>
+</!-->
+
+</cml>

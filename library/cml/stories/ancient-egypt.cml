@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Ancient Egypt in Africa</label>
+		<x>1215</x>
+		<y>280</y>
+		<link>AncientEgypt-PopUp</link>
+		<label>Ancient Egypt in Africa</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>AncientEgypt-PopUp</id>
+		<title>Ancient Egypt in Africa</title>
+		<panel_path>library/cml/stories/ancient-egypt.cml</panel_path>
+		<radioX>240</radioX>
+	</Viewer>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Predominantly Muslim and Arabic speaking, Egypt has been closely tied to the Middle East since the introduction of Islam in the 600s CE. But ancient Egypt, linked to other parts of Africa by the Nile River, shared more with its neighbors to the south.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">There's a reason you probably haven't heard of <span fontFamily="AvenirMediumObliqueTLF">Kush</span>, the ancient kingdom south of Egypt. Ancient Egyptians regarded their neighbors as inferior and passed on that disdain to early archeologists. Classical Greek historians, on the other hand, found a lot to like in Kush.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Everyday objects from ancient Egypt, like this headrest, are similar to those found in Central and East Africa, suggesting deep ties between the ancient culture and the rest of the continent. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Egyptian tombs are mini-museums of daily life many millennia ago. They're stocked with models of everyday objects for the dead to use in the afterlife, such as this riverboat, the main mode of transport in a land where roads washed away in the annual flooding of the Nile.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Wood was good--a status symbol--when it came to coffins in ancient Egypt. Trees, after all, were scarce in the dry, desert land. The wealthy imported hardwood from Lebanon and other forested regions while those of lower status settled for coffins made of pottery or reeds.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Musical clappers like this set carved from hippopotamus tusks were used like castanets at festivals, and not just for entertainment--the noise of clapping was thought to keep dangerous spirits away.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/13.1 Map13_ancient_egypt_1024x768-100713-01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/13.2 2013_TDXAfrica_022_02.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/13.3 PCD20000721_2769_IMG0018.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/13.4 PCD19981214_0004_IMG0004.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/13.5 mia_2167b.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/13.6 mia_5036291.png</media>
+	</Panel>
+
+</cml>

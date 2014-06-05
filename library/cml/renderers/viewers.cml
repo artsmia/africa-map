@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<RenderKit>
+		<Renderer id="viewers" dataRootTag="Viewer" dataPath="library/cml/stories/content-index.cml">
+
+			<AlbumViewer2 id="{id}" front="#front" class="viewers" visible="false" autoTextLayout="false" mouseChildren="true" clusterBubbling="true" gestureReleaseInertia="true" disableNativeTransform="true">
+				
+				<TouchContainer2 id="titleTouch" targetParent="false" disableNativeTransform="true">
+				
+					<Graphic shape="roundRectangleComplex" cornerWidth="10" topLeftRadius="10" topRightRadius="10" width="700" height="505" lineStroke="1" lineColor="0x58595b" fill="color" color="0xece4c6"/>
+					<Text id="titleAlbum" width="650" x="10" y="10" fontSize="18" color="0x3b3932" text="{title}" font="AvenirBlack" />
+				
+					<Gesture ref="n-drag" />
+				
+				</TouchContainer2>
+
+
+				<ChicoAlbum id="front" margin="5" backgroundColor="0xece4c6" horizontal="true" x="0" y="45" width="700" applyMask="true" visible="true" targetParent="false" mouseChildren="true" gestureReleaseInertia="true" dragGesture="n-drag" clusterBubbling="true" centerContent="false" snapOffset="137">	
+					
+					<RenderKit>
+						<Renderer dataRootTag="Panel" dataPath="{panel_path}">
+							<Media class="media-container" src="{media}" width="426" height="320" autoplay="false" loop="false" mouseChildren="true" activated="true">
+								<Include src="library/cml/buttons/largePlayButton.cml" />
+								<ProgressBar x="0" y="300" width="425"/>
+							</Media>
+						</Renderer>
+					</RenderKit>
+			
+				</ChicoAlbum>
+				
+				
+				<TouchContainer2 id="descriptions" targetParent="false" disableNativeTransform="true">					
+					
+					<RenderKit>
+						<Renderer dataRootTag="Description" dataPath="{panel_path}" color="0x3b3932" >
+							<TLF x="15" y="375" width="645" font="AvenirMediumTLF" class="desc">
+								{desc_text}
+							</TLF>
+						</Renderer>
+					</RenderKit>			
+					
+					<Gesture ref="n-drag" />	
+					
+				</TouchContainer2>
+				
+				<RadioButtons id="albumButtons" pageButtons="false" x="{radioX}" y="450" graphicReps="id1:id1d,id2:id2d,id3:id3d,id4:id4d,id5:id5d,id6:id6d,id7:id7d,id8:id8d,id9:id9d,id0:id0d" labels="" fontSize="0" fontAlpha="0" verticalLayout="false">
+					<Container id="id1">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id1d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id2">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id2d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id3">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id3d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id4">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id4d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id5">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id5d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id6">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id6d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id7">
+						<Graphic shape="circle" color="0xEF4E25" radius="10"lineStroke="0"/>
+					</Container>
+					<Container id="id7d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id8">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id8d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id9">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id9d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+					<Container id="id0">
+						<Graphic shape="circle" color="0xEF4E25" radius="10" lineStroke="0"/>
+					</Container>
+					<Container id="id0d">
+						<Graphic shape="circle" color="0xD6AFA7" radius="10" alpha="0.5" lineStroke="0"/>
+					</Container>
+				</RadioButtons>
+
+				
+				<Include src="library/cml/buttons/viewerButtons.cml"/>
+				<Include src="library/cml/buttons/closeButton.cml"/>
+				
+				<Gesture ref="n-scale" />	
+				<!--<Gesture ref="n-rotate" />-->	
+				
+				<Filter ref="DropShadowFilter" distance="10" blurX="10" blurY="10" alpha=".4"  />
+				
+			</AlbumViewer2>			
+		
+		</Renderer>
+	</RenderKit>
+
+</cml>
+
+
+

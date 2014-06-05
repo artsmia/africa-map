@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Diversity of Africa </label>
+		<x>1163</x>
+		<y>728</y>
+		<link>DiversityofAfrica-PopUp</link>
+		<label>Diversity of Africa </label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>DiversityofAfrica-PopUp</id>
+		<title>Diversity of Africa</title>
+		<panel_path>library/cml/stories/diversity-of-africa.cml</panel_path>
+		<radioX>280</radioX>
+	</Viewer>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Christianity and Islam have existed in Africa for hundreds of years, alongside scores of traditional African spirituality and every other major world religion. Today, the vast majority of Africans are Christian or Muslim, sometimes practicing traditional religions as well.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Africa is incredibly multi-lingual, with 2,000 different languages--500 in Nigeria alone. Many are creole, blended languages that develop when trade or other interactions bring different cultures together.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Africa has some of the wettest and driest regions in the world. It rains all year in the lush equatorial areas in the middle, while dry periods lengthen the farther you move in either direction from the equator, the landscape shifting from forest to grasslands to desert.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Africa can blame the curvature of the Earth for the fact that most world maps show it smaller than it really is--it's not easy to accurately flatten a sphere. In reality, the United States, China, and Europe could easily fit into Africa, currently divided into 55 countries.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/4.1 Map04a_religions-1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/4.2 Map04b_languages-1024-768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/4.3 Map04c_terrain-1024x768100713.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/4.4 Map04d_size_of_africa_1024x768-100713.png</media>
+	</Panel>
+</cml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Include src="library/cml/stories/historical-gold-trade.cml" />
+	<Include src="library/cml/stories/mami-wata.cml" />
+	<Include src="library/cml/stories/colonialism.cml" />
+	<Include src="library/cml/stories/diversity-of-africa.cml" />
+	<Include src="library/cml/stories/transatlantic-slave-trade.cml" />
+	<Include src="library/cml/stories/ethiopian-album.cml" />
+	<Include src="library/cml/stories/toni-malau.cml" />
+	<Include src="library/cml/stories/koran-page.cml" />
+	<Include src="library/cml/stories/prayer-mat.cml" />
+	<Include src="library/cml/stories/torah-finials.cml" />
+	<Include src="library/cml/stories/indian-ocean-trade-routes.cml" />
+	<Include src="library/cml/stories/historical-african-kingdoms.cml" />
+	<Include src="library/cml/stories/ancient-egypt.cml" />
+</cml>

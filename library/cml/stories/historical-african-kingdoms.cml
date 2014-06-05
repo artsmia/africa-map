@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<Hotspot>
+		<label>Historical African Kingdoms</label>
+		<x>1145</x>
+		<y>383</y>
+		<link>HistoricalAfrican-PopUp</link>
+		<label>Historical African Kingdoms</label>
+		<tether-color>0x3b3932</tether-color>
+	</Hotspot>
+
+	<Viewer>
+		<id>HistoricalAfrican-PopUp</id>
+		<title>Historical African Kingdoms</title>
+		<panel_path>library/cml/stories/historical-african-kingdoms.cml</panel_path>
+		<radioX>180</radioX>
+	</Viewer>
+	
+	<albumButtonsX>300</albumButtonsX>
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">African kingdoms rose and fell on the changing tides of power and wealth driven by agriculture, trade, and technology--until colonialism upended most of them. Some kingdoms survived, however, and still hold ceremonial roles.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Location, location, location enabled the kingdom of Benin, in the center of major trade routes, to prosper after its founding in 1180. The arrival of European traders in the late 1400s, like these Portuguese, spurred further economic and political growth.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">The Kuba Kingdom formed in about 1625 when 19 different ethnic groups united around an outsider. Crops imported from the Americas--corn, tobacco, cassava--helped the kingdom prosper, and the royals still have ceremonial roles today.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Oduduwa, the first Yoruba king and founder of the ancient city of Ile-Ife, is a legendary figure known through oral history. His seven offspring founded their own kingdoms, the seven Yoruba nations, which remain united by origin and language.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Amsterdam without the cold and canals? That's what a Dutch visitor thought of the capital of Benin in the 1500s. Enriched by trade and tribute, the royal court supported robust metalwork and ivory carving trades. But a British raid, in 1897, looted Benin of its art.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Most Yoruba city-states were ruled by kings, or <span fontFamily="AvenirMediumObliqueTLF">oba</span>, and a council of advisors. The balance of power varied, but a council could always order the king to abdicate by sending him a symbolic message, usually an empty calabash or a gift of parrot's eggs.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Early farmers along the Nile River gradually organized into two small kingdoms, which united around 3000 BCE to form “The Two Lands,” known today as Egypt. Pharaohs would rule Egypt for thousands of years before crumbling under the expanding Persian Empire in 525 BCE. </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">Ancient Ethiopia, or Abyssinia, is believed by some to be the world's oldest kingdom. A direct line from the Kingdom of Aksum (founded in the 400s BCE) to the Emperor Haille Selassie (deposed in 1974) is debatable. But even so, Ethiopia has had a remarkably continuous history.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14">A stool covered with gold fell from the sky and landed on the first Asante king, Osei Tutu, who unified several Akan chiefdoms in the 1670s. That's the legend of the Golden Stool, still an important symbol of the Asante kingdom and said to hold the soul of the nation.</p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+	<Panel>
+		<media>library/assets/media/12.1 Map12_kingdoms_1024x768-100713.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.2 2013_TDXAfrica_041_01.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.3 mia_5037395.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/12.4 mia_5021120.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.5 Benin Memorial Head.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.6 mia_39930a.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.7 mia_29124a.png</media>
+	</Panel>	
+	<Panel>
+		<media>library/assets/media/12.8 mia_5015397_Outlined.png</media>
+	</Panel>
+	<Panel>
+		<media>library/assets/media/12.9 PCD19980109_3814_IMG0012.png</media>
+	</Panel>
+</cml>
